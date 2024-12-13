@@ -1,22 +1,20 @@
-.grid {
-    height:0;
-    width: 0;
-}
-
-#sketch-container {
-    display: flex wrap;
-    justify-content: center;
-    height: 600px;
-    width: 600px;
-    border: 3px solid black;
-    padding: 0;
-    flex-basis: 600px;
-}
-
-#main-container {
+.mainContainer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    gap: 30px;
+}
+
+#sketch-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 256px;
+    height: 256px;
+    border: 3px solid black;
+}
+
+.pixel {
+    background-color: white;
+    padding: 0;
+    margin: 0;
 }
